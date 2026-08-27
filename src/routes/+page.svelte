@@ -36,7 +36,9 @@
 		<LanguageSelector />
 	</div>
 
-	<h1>{t[$locale].title}</h1>
+	<h1 class="text-4xl font-bold text-white">
+		{t[$locale].title}
+	</h1>
 
 	<p>
 		{t[$locale].welcome}
