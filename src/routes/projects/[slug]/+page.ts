@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 import { services } from '$lib/services/services';
-import type { PageLoad } from './$types';
+import type { PageLoad, EntryGenerator } from './$types';
 
 export const load: PageLoad = async ({ params }) => {
 	const resolvedProject = services.projects.getResolvedBySlug(params.slug);
@@ -15,4 +15,10 @@ export const load: PageLoad = async ({ params }) => {
 		resolvedProject,
 		defaultLocale: portfolio.defaultLocale
 	};
+};
+
+export const entries: EntryGenerator = () => {
+	return services.projects.getAll().map((project) => ({
+		slug: project.slug
+	}));
 };
