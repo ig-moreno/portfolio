@@ -4,6 +4,7 @@
 	import SkillBadge from '$lib/components/common/SkillBadge.svelte';
 	import TagBadge from '$lib/components/common/TagBadge.svelte';
 
+	import { marked } from 'marked';
 	import { localize } from '$lib/services';
 	import { resolve } from '$app/paths';
 
@@ -28,10 +29,12 @@
 	</h2>
 
 	<p>
-		{localize(
-			data.project.shortDescription,
-			locale,
-			defaultLocale
+		{@html marked.parse(
+			localize(
+				data.project.shortDescription,
+				locale,
+				defaultLocale
+			)
 		)}
 	</p>
 

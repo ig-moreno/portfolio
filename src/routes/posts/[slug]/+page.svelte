@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { marked } from 'marked';
 	import { locale } from '$lib/stores/locale';
 	import { localize } from '$lib/services';
 	import { formatDate } from '$lib';
@@ -31,7 +32,7 @@
 	{/if}
 
 	<div class="content">
-		{localize(post.content, $locale, data.defaultLocale)}
+		{@html marked.parse(localize(post.content, $locale, data.defaultLocale))}
 	</div>
 </main>
 
