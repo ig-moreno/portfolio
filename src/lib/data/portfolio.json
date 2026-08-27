@@ -280,7 +280,6 @@
         "es": "## Introducción\n\nEn este artículo explico las decisiones técnicas tomadas durante el desarrollo de mi portfolio.\n\n## Arquitectura\n\nEl proyecto utiliza **SvelteKit**, **TypeScript** y `adapter-static` para generar un sitio completamente estático.",
         "en": "## Introduction\n\nIn this article I explain the technical decisions made while developing my portfolio.\n\n## Architecture\n\nThe project uses **SvelteKit**, **TypeScript** and `adapter-static` to generate a completely static site."
       },
-      "status": "published",
       "publishedAt": "2026-08-27",
       "updatedAt": "2026-08-27",
       "tags": [
@@ -295,6 +294,8 @@
     {
       "uuid": "60000000-0000-4000-8000-000000000002",
       "slug": "static-sites-and-github-pages",
+      "publishedAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
       "title": {
         "es": "Sitios estáticos y GitHub Pages",
         "en": "Static Sites and GitHub Pages"
@@ -307,7 +308,6 @@
         "es": "Este es un segundo post de ejemplo para comprobar el listado y las rutas dinámicas.",
         "en": "This is a second example post for testing lists and dynamic routes."
       },
-      "status": "draft",
       "tags": [
         "20000000-0000-4000-8000-000000000003"
       ],
