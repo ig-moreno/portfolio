@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"defaultLocale": "es",
+	"supportedLocales": ["es", "en"],
+	"profile": {
+		"name": "Ivan",
+		"headline": {
+			"es": "Desarrollador Full Stack",
+			"en": "Full Stack Developer"
+		},
+		"summary": {
+			"es": "Portfolio personal",
+			"en": "Personal portfolio"
+		},
+		"links": []
+	},
+	"skills": [],
+	"tags": [],
+	"experience": [],
+	"education": [],
+	"projects": [],
+	"posts": []
+}
