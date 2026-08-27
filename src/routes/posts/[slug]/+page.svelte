@@ -3,6 +3,7 @@
 	import { localize } from '$lib/services';
 	import { formatDate } from '$lib';
 	import type { Locale } from '$lib/config/i18n';
+	import { resolve } from '$app/paths';
 
 	let { data } = $props();
 
@@ -19,7 +20,7 @@
 </svelte:head>
 
 <main class="post-detail">
-	<a href="/posts" class="back-link">&larr; {backText[$locale]}</a>
+	<a href={resolve('/posts')} class="back-link">&larr; {backText[$locale]}</a>
 
 	<h1>{localize(post.title, $locale, data.defaultLocale)}</h1>
 

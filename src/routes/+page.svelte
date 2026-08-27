@@ -2,6 +2,7 @@
 	import LanguageSelector from '$lib/components/common/LanguageSelector.svelte';
 	import { locale } from '$lib/stores/locale';
 	import type { Locale } from '$lib/config/i18n';
+	import { resolve } from '$app/paths';
 
 	const t: Record<
 		Locale,
@@ -42,8 +43,8 @@
 	</p>
 
 	<nav>
-		<a href="/projects">{t[$locale].viewProjects}</a>
-		<a href="/cv">{t[$locale].viewCV}</a>
+		<a href={resolve('/projects')}>{t[$locale].viewProjects}</a>
+		<a href={resolve('/cv')}>{t[$locale].viewCV}</a>
 	</nav>
 </section>
 
