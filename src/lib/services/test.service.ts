@@ -1,4 +1,4 @@
-import type { Portfolio } from '$lib/domain';
+import { type Portfolio, MediaType } from '$lib/domain';
 import { SkillCategory } from '$lib/domain/skill';
 import { ProjectStatus } from '$lib/domain/project';
 import { PostStatus } from '$lib/domain/post';
@@ -14,7 +14,7 @@ export const createMockPortfolio = (): Portfolio => {
 			headline: { es: 'Desarrollador de pruebas', en: 'Test Developer' },
 			summary: { es: 'Resumen de prueba', en: 'Test summary' },
 			links: [],
-			avatar: { type: 'image', src: '/avatar.png', alt: 'Avatar' },
+			avatar: { type: MediaType.IMAGE, src: '/avatar.png', alt: 'Avatar' },
 			location: 'Madrid',
 			email: 'test@example.com'
 		},
