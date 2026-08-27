@@ -17,20 +17,18 @@
 		locale,
 		defaultLocale
 	}: Props = $props();
-
-	let project = data.project;
 </script>
 
 <article>
 	<h2>
-		<a href={`/projects/${project.slug}`}>
-			{localize(project.title, locale, defaultLocale)}
+		<a href={`/projects/${data.project.slug}`}>
+			{localize(data.project.title, locale, defaultLocale)}
 		</a>
 	</h2>
 
 	<p>
 		{localize(
-			project.shortDescription,
+			data.project.shortDescription,
 			locale,
 			defaultLocale
 		)}
