@@ -1,23 +1,320 @@
 {
-	"schemaVersion": 1,
-	"defaultLocale": "es",
-	"supportedLocales": ["es", "en"],
-	"profile": {
-		"name": "Ivan",
-		"headline": {
-			"es": "Desarrollador Full Stack",
-			"en": "Full Stack Developer"
-		},
-		"summary": {
-			"es": "Portfolio personal",
-			"en": "Personal portfolio"
-		},
-		"links": []
-	},
-	"skills": [],
-	"tags": [],
-	"experience": [],
-	"education": [],
-	"projects": [],
-	"posts": []
+  "schemaVersion": 1,
+  "defaultLocale": "es",
+  "supportedLocales": [
+    "es",
+    "en"
+  ],
+  "profile": {
+    "name": "Ivan Guillen",
+    "headline": {
+      "es": "Desarrollador Full Stack",
+      "en": "Full Stack Developer"
+    },
+    "summary": {
+      "es": "Desarrollador Full Stack especializado en el desarrollo de aplicaciones web y arquitecturas de microservicios.",
+      "en": "Full Stack Developer specialized in web application development and microservice architectures."
+    },
+    "avatar": {
+      "type": "image",
+      "src": "/images/profile/avatar.webp",
+      "alt": "Ivan Guillen"
+    },
+    "location": "Barcelona, Spain",
+    "email": "example@example.com",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/example",
+        "label": "GitHub"
+      },
+      {
+        "type": "website",
+        "url": "https://example.com",
+        "label": "Website"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "uuid": "10000000-0000-4000-8000-000000000001",
+      "slug": "java",
+      "name": "Java",
+      "color": "#F89820",
+      "category": "language"
+    },
+    {
+      "uuid": "10000000-0000-4000-8000-000000000002",
+      "slug": "typescript",
+      "name": "TypeScript",
+      "color": "#3178C6",
+      "category": "language"
+    },
+    {
+      "uuid": "10000000-0000-4000-8000-000000000003",
+      "slug": "spring-boot",
+      "name": "Spring Boot",
+      "color": "#6DB33F",
+      "category": "framework"
+    },
+    {
+      "uuid": "10000000-0000-4000-8000-000000000004",
+      "slug": "sveltekit",
+      "name": "SvelteKit",
+      "color": "#FF3E00",
+      "category": "framework"
+    },
+    {
+      "uuid": "10000000-0000-4000-8000-000000000005",
+      "slug": "postgresql",
+      "name": "PostgreSQL",
+      "color": "#4169E1",
+      "category": "database"
+    },
+    {
+      "uuid": "10000000-0000-4000-8000-000000000006",
+      "slug": "github",
+      "name": "GitHub",
+      "color": "#181717",
+      "category": "platform",
+      "url": "https://github.com"
+    }
+  ],
+  "tags": [
+    {
+      "uuid": "20000000-0000-4000-8000-000000000001",
+      "name": {
+        "es": "Proyecto personal",
+        "en": "Personal project"
+      }
+    },
+    {
+      "uuid": "20000000-0000-4000-8000-000000000002",
+      "name": {
+        "es": "Código abierto",
+        "en": "Open source"
+      }
+    },
+    {
+      "uuid": "20000000-0000-4000-8000-000000000003",
+      "name": {
+        "es": "Web",
+        "en": "Web"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "uuid": "30000000-0000-4000-8000-000000000001",
+      "company": "Example Company",
+      "position": {
+        "es": "Desarrollador Full Stack",
+        "en": "Full Stack Developer"
+      },
+      "description": {
+        "es": "Desarrollo y mantenimiento de aplicaciones web, microservicios y APIs REST utilizando Java, Spring Boot y tecnologías frontend.",
+        "en": "Development and maintenance of web applications, microservices and REST APIs using Java, Spring Boot and frontend technologies."
+      },
+      "startDate": "2022-01-01",
+      "location": {
+        "es": "Barcelona, España",
+        "en": "Barcelona, Spain"
+      },
+      "skills": [
+        "10000000-0000-4000-8000-000000000001",
+        "10000000-0000-4000-8000-000000000002",
+        "10000000-0000-4000-8000-000000000003",
+        "10000000-0000-4000-8000-000000000005"
+      ],
+      "links": [
+        {
+          "type": "website",
+          "url": "https://example.com",
+          "label": "Company website"
+        }
+      ]
+    },
+    {
+      "uuid": "30000000-0000-4000-8000-000000000002",
+      "company": "Previous Company",
+      "position": {
+        "es": "Desarrollador Junior",
+        "en": "Junior Developer"
+      },
+      "description": {
+        "es": "Desarrollo de aplicaciones web y mantenimiento de sistemas existentes.",
+        "en": "Web application development and maintenance of existing systems."
+      },
+      "startDate": "2020-06-01",
+      "endDate": "2021-12-31",
+      "location": {
+        "es": "Barcelona, España",
+        "en": "Barcelona, Spain"
+      },
+      "skills": [
+        "10000000-0000-4000-8000-000000000001"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "uuid": "40000000-0000-4000-8000-000000000001",
+      "institution": "Example University",
+      "title": {
+        "es": "Ingeniería Informática",
+        "en": "Computer Engineering"
+      },
+      "description": {
+        "es": "Formación en ingeniería del software, bases de datos, redes y sistemas.",
+        "en": "Education in software engineering, databases, networks and computer systems."
+      },
+      "startDate": "2016-09-01",
+      "endDate": "2020-06-30",
+      "location": {
+        "es": "Barcelona, España",
+        "en": "Barcelona, Spain"
+      },
+      "links": [
+        {
+          "type": "website",
+          "url": "https://example.edu",
+          "label": "University website"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "uuid": "50000000-0000-4000-8000-000000000001",
+      "slug": "personal-portfolio",
+      "title": {
+        "es": "Portfolio personal",
+        "en": "Personal Portfolio"
+      },
+      "shortDescription": {
+        "es": "Portfolio personal desarrollado con SvelteKit y TypeScript.",
+        "en": "Personal portfolio built with SvelteKit and TypeScript."
+      },
+      "description": {
+        "es": "Portfolio estático diseñado para centralizar mi experiencia profesional, formación, proyectos y publicaciones. Los contenidos se almacenan en un único fichero JSON y el sitio se genera estáticamente mediante SvelteKit.",
+        "en": "Static portfolio designed to centralize my professional experience, education, projects and posts. Content is stored in a single JSON file and the site is statically generated using SvelteKit."
+      },
+      "projectStatus": "in_progress",
+      "startDate": "2026-08-27",
+      "skills": [
+        "10000000-0000-4000-8000-000000000002",
+        "10000000-0000-4000-8000-000000000004",
+        "10000000-0000-4000-8000-000000000006"
+      ],
+      "tags": [
+        "20000000-0000-4000-8000-000000000001",
+        "20000000-0000-4000-8000-000000000002",
+        "20000000-0000-4000-8000-000000000003"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/portfolio/cover.webp",
+          "alt": "Personal portfolio screenshot",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/example/portfolio",
+          "label": "Source code"
+        },
+        {
+          "type": "demo",
+          "url": "https://example.github.io/portfolio",
+          "label": "Live demo"
+        }
+      ]
+    },
+    {
+      "uuid": "50000000-0000-4000-8000-000000000002",
+      "slug": "task-manager",
+      "title": {
+        "es": "Gestor de tareas",
+        "en": "Task Manager"
+      },
+      "shortDescription": {
+        "es": "Aplicación para gestionar tareas personales.",
+        "en": "Application for managing personal tasks."
+      },
+      "description": {
+        "es": "Proyecto experimental para gestionar tareas, categorías y estados mediante una interfaz web.",
+        "en": "Experimental project for managing tasks, categories and statuses through a web interface."
+      },
+      "projectStatus": "completed",
+      "startDate": "2025-02-01",
+      "endDate": "2025-04-15",
+      "skills": [
+        "10000000-0000-4000-8000-000000000001",
+        "10000000-0000-4000-8000-000000000003",
+        "10000000-0000-4000-8000-000000000005"
+      ],
+      "tags": [
+        "20000000-0000-4000-8000-000000000001",
+        "20000000-0000-4000-8000-000000000003"
+      ],
+      "media": [],
+      "links": []
+    }
+  ],
+  "posts": [
+    {
+      "uuid": "60000000-0000-4000-8000-000000000001",
+      "slug": "building-my-portfolio-with-sveltekit",
+      "title": {
+        "es": "Construyendo mi portfolio con SvelteKit",
+        "en": "Building My Portfolio with SvelteKit"
+      },
+      "excerpt": {
+        "es": "Cómo diseñé la arquitectura de mi portfolio utilizando SvelteKit, TypeScript y generación estática.",
+        "en": "How I designed my portfolio architecture using SvelteKit, TypeScript and static generation."
+      },
+      "content": {
+        "es": "## Introducción\n\nEn este artículo explico las decisiones técnicas tomadas durante el desarrollo de mi portfolio.\n\n## Arquitectura\n\nEl proyecto utiliza **SvelteKit**, **TypeScript** y `adapter-static` para generar un sitio completamente estático.",
+        "en": "## Introduction\n\nIn this article I explain the technical decisions made while developing my portfolio.\n\n## Architecture\n\nThe project uses **SvelteKit**, **TypeScript** and `adapter-static` to generate a completely static site."
+      },
+      "status": "published",
+      "publishedAt": "2026-08-27",
+      "updatedAt": "2026-08-27",
+      "tags": [
+        "20000000-0000-4000-8000-000000000001",
+        "20000000-0000-4000-8000-000000000003"
+      ],
+      "relatedProjects": [
+        "50000000-0000-4000-8000-000000000001"
+      ],
+      "media": []
+    },
+    {
+      "uuid": "60000000-0000-4000-8000-000000000002",
+      "slug": "static-sites-and-github-pages",
+      "title": {
+        "es": "Sitios estáticos y GitHub Pages",
+        "en": "Static Sites and GitHub Pages"
+      },
+      "excerpt": {
+        "es": "Notas sobre generación estática y despliegue de aplicaciones frontend.",
+        "en": "Notes about static generation and frontend application deployment."
+      },
+      "content": {
+        "es": "Este es un segundo post de ejemplo para comprobar el listado y las rutas dinámicas.",
+        "en": "This is a second example post for testing lists and dynamic routes."
+      },
+      "status": "draft",
+      "tags": [
+        "20000000-0000-4000-8000-000000000003"
+      ],
+      "relatedProjects": [
+        "50000000-0000-4000-8000-000000000001"
+      ],
+      "media": []
+    }
+  ]
 }
