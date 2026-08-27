@@ -2,18 +2,18 @@
 
 import { writable } from 'svelte/store';
 import { browser } from '$app/environment';
-import { cookieService } from '$lib/services/cookie.service';
+import { storageService } from '$lib/services/storage.service';
 import portfolioData from '$lib/data/portfolio.json';
 import {
 	isSupportedLocale,
 	type Locale
 } from '$lib/config/i18n';
 
-const COOKIE_NAME = 'lang';
+const STORAGE_KEY = 'lang';
 
 function getInitialLocale(): Locale {
 	if (browser) {
-		const saved = cookieService.get(COOKIE_NAME);
+		const saved = storageService.get(STORAGE_KEY);
 		if (saved && isSupportedLocale(saved)) {
 			return saved;
 		}
@@ -34,9 +34,6 @@ export const locale = writable<Locale>(initialLocale);
 
 if (browser) {
 	locale.subscribe((value) => {
-		cookieService.set(COOKIE_NAME, value, {
-			maxAge: 60 * 60 * 24 * 365, // 1 year
-			path: '/'
-		});
+		storageService.set(STORAGE_KEY, value);
 	});
 }

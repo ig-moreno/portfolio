@@ -9,4 +9,4 @@ export * from './education.service';
 export * from './profile.service';
 export * from './localization.service';
 export * from './cv.service';
-export * from './cookie.service';
+export * from './storage.service';
