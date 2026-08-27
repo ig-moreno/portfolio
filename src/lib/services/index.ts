@@ -10,3 +10,4 @@ export * from './profile.service';
 export * from './localization.service';
 export * from './cv.service';
 export * from './storage.service';
+export * from './test.service';
