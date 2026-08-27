@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { locale } from '$lib/stores/locale';
 	import type { Locale } from '$lib/config/i18n';
+	import { resolve } from '$app/paths';
 
 	const t: Record<
 		Locale,
@@ -23,9 +24,9 @@
 
 <header>
 	<nav>
-		<a href="/">{t[$locale].home}</a>
-		<a href="/projects">{t[$locale].projects}</a>
-		<a href="/posts">{t[$locale].posts}</a>
-		<a href="/cv">{t[$locale].cv}</a>
+		<a href={resolve('/')}>{t[$locale].home}</a>
+		<a href={resolve('/projects')}>{t[$locale].projects}</a>
+		<a href={resolve('/posts')}>{t[$locale].posts}</a>
+		<a href={resolve('/cv')}>{t[$locale].cv}</a>
 	</nav>
 </header>

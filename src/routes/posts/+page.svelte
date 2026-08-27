@@ -3,6 +3,7 @@
 	import { localize } from '$lib/services';
 	import { formatDate } from '$lib';
 	import type { Locale } from '$lib/config/i18n';
+	import { resolve } from '$app/paths';
 
 	let { data } = $props();
 
@@ -37,7 +38,7 @@
 				{@const post = resolvedPost.post}
 				<article class="post-item">
 					<h2>
-						<a href={`/posts/${post.slug}`}>
+						<a href={resolve('/posts/[slug]', { slug: post.slug })}>
 							{localize(post.title, $locale, data.defaultLocale)}
 						</a>
 					</h2>
@@ -52,7 +53,7 @@
 						{localize(post.excerpt, $locale, data.defaultLocale)}
 					</p>
 
-					<a href={`/posts/${post.slug}`} class="read-more">
+					<a href={resolve('/posts/[slug]', { slug: post.slug })} class="read-more">
 						{readMoreText[$locale]} &rarr;
 					</a>
 				</article>

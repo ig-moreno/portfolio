@@ -5,6 +5,7 @@
 	import TagBadge from '$lib/components/common/TagBadge.svelte';
 
 	import { localize } from '$lib/services';
+	import { resolve } from '$app/paths';
 
 	interface Props {
 		data: ResolvedProject;
@@ -21,7 +22,7 @@
 
 <article>
 	<h2>
-		<a href={`/projects/${data.project.slug}`}>
+		<a href={resolve('/projects/[slug]', { slug: data.project.slug })}>
 			{localize(data.project.title, locale, defaultLocale)}
 		</a>
 	</h2>
