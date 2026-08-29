@@ -46,6 +46,13 @@ export class ProjectService {
         );
     }
 
+    getFeatured(): Project[] {
+        return this.portfolio.projects.filter(
+            project =>
+                project.featured === true
+        );
+    }
+
     getCompleted(): Project[] {
         return this.portfolio.projects.filter(
             project =>

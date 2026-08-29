@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { ResolvedProject } from '$lib/services';
 
-	import ProjectCard from './ProjectCard.svelte';
+	import ProjectCard from '../common/ProjectCard.svelte';
 
 	interface Props {
 		projects: ResolvedProject[];

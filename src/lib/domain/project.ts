@@ -19,6 +19,8 @@ export interface Project {
 
     description: Localized<Markdown>;
 
+    featured: boolean;
+
     projectStatus: ProjectStatus;
 
     startDate: ISODate;

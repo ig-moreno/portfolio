@@ -7,10 +7,12 @@
 	let { children } = $props();
 </script>
 
-<Header />
+<div class="container max-w-screen-xl mx-auto px-4">
+	<Header />
 
-<main>
-	{@render children()}
-</main>
+	<main class="mt-12 px-3">
+		{@render children()}
+	</main>
 
-<Footer />
+	<Footer />
+</div>

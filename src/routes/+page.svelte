@@ -1,8 +1,16 @@
 <script lang="ts">
+
+	import Hero from '$lib/components/home/Hero.svelte';
+	import FeaturedProjects from '$lib/components/home/FeaturedProjects.svelte';
+	import ExperiencePreview from '$lib/components/home/ExperiencePreview.svelte';
+	import LatestPosts from '$lib/components/home/LatestPosts.svelte';
+
 	import LanguageSelector from '$lib/components/common/LanguageSelector.svelte';
 	import { locale } from '$lib/stores/locale';
 	import type { Locale } from '$lib/config/i18n';
 	import { resolve } from '$app/paths';
+
+		let { data } = $props();
 
 	const t: Record<
 		Locale,
@@ -31,7 +39,28 @@
 	/>
 </svelte:head>
 
+
+
+<Hero 
+	profile={data.profile} 
+	locale={$locale} 
+	defaultLocale={data.defaultLocale}
+/>
+
+<FeaturedProjects
+	projectList={data.featuredProjects}
+	columns={4}
+	locale={$locale}
+	defaultLocale={data.defaultLocale}
+/>
+
+
+
+
+<!--
 <section>
+
+
 	<div class="lang-container">
 		<LanguageSelector />
 	</div>
@@ -55,3 +84,4 @@
 		margin-bottom: 1rem;
 	}
 </style>
+-->

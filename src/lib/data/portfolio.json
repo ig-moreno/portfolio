@@ -199,6 +199,207 @@
         "es": "Portfolio estático diseñado para centralizar mi experiencia profesional, formación, proyectos y publicaciones. Los contenidos se almacenan en un único fichero JSON y el sitio se genera estáticamente mediante SvelteKit.",
         "en": "Static portfolio designed to centralize my professional experience, education, projects and posts. Content is stored in a single JSON file and the site is statically generated using SvelteKit."
       },
+      "featured": true,
+      "projectStatus": "in_progress",
+      "startDate": "2026-08-27",
+      "skills": [
+        "10000000-0000-4000-8000-000000000002",
+        "10000000-0000-4000-8000-000000000004",
+        "10000000-0000-4000-8000-000000000006"
+      ],
+      "tags": [
+        "20000000-0000-4000-8000-000000000001",
+        "20000000-0000-4000-8000-000000000002",
+        "20000000-0000-4000-8000-000000000003"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/portfolio/cover.webp",
+          "alt": "Personal portfolio screenshot",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/example/portfolio",
+          "label": "Source code"
+        },
+        {
+          "type": "demo",
+          "url": "https://example.github.io/portfolio",
+          "label": "Live demo"
+        }
+      ]
+    },
+    {
+      "uuid": "50000000-0000-4000-8000-000000000021",
+      "slug": "personal-portfolio",
+      "title": {
+        "es": "Portfolio personal",
+        "en": "Personal Portfolio"
+      },
+      "shortDescription": {
+        "es": "Portfolio personal desarrollado con SvelteKit y TypeScript.",
+        "en": "Personal portfolio built with SvelteKit and TypeScript."
+      },
+      "description": {
+        "es": "Portfolio estático diseñado para centralizar mi experiencia profesional, formación, proyectos y publicaciones. Los contenidos se almacenan en un único fichero JSON y el sitio se genera estáticamente mediante SvelteKit.",
+        "en": "Static portfolio designed to centralize my professional experience, education, projects and posts. Content is stored in a single JSON file and the site is statically generated using SvelteKit."
+      },
+      "featured": true,
+      "projectStatus": "in_progress",
+      "startDate": "2026-08-27",
+      "skills": [
+        "10000000-0000-4000-8000-000000000002",
+        "10000000-0000-4000-8000-000000000004",
+        "10000000-0000-4000-8000-000000000006"
+      ],
+      "tags": [
+        "20000000-0000-4000-8000-000000000001",
+        "20000000-0000-4000-8000-000000000002",
+        "20000000-0000-4000-8000-000000000003"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/portfolio/cover.webp",
+          "alt": "Personal portfolio screenshot",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/example/portfolio",
+          "label": "Source code"
+        },
+        {
+          "type": "demo",
+          "url": "https://example.github.io/portfolio",
+          "label": "Live demo"
+        }
+      ]
+    },
+    {
+      "uuid": "50000000-0000-4000-8000-000000000022",
+      "slug": "personal-portfolio",
+      "title": {
+        "es": "Portfolio personal",
+        "en": "Personal Portfolio"
+      },
+      "shortDescription": {
+        "es": "Portfolio personal desarrollado con SvelteKit y TypeScript.",
+        "en": "Personal portfolio built with SvelteKit and TypeScript."
+      },
+      "description": {
+        "es": "Portfolio estático diseñado para centralizar mi experiencia profesional, formación, proyectos y publicaciones. Los contenidos se almacenan en un único fichero JSON y el sitio se genera estáticamente mediante SvelteKit.",
+        "en": "Static portfolio designed to centralize my professional experience, education, projects and posts. Content is stored in a single JSON file and the site is statically generated using SvelteKit."
+      },
+      "featured": true,
+      "projectStatus": "in_progress",
+      "startDate": "2026-08-27",
+      "skills": [
+        "10000000-0000-4000-8000-000000000002",
+        "10000000-0000-4000-8000-000000000004",
+        "10000000-0000-4000-8000-000000000006"
+      ],
+      "tags": [
+        "20000000-0000-4000-8000-000000000001",
+        "20000000-0000-4000-8000-000000000002",
+        "20000000-0000-4000-8000-000000000003"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/portfolio/cover.webp",
+          "alt": "Personal portfolio screenshot",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/example/portfolio",
+          "label": "Source code"
+        },
+        {
+          "type": "demo",
+          "url": "https://example.github.io/portfolio",
+          "label": "Live demo"
+        }
+      ]
+    },
+    {
+      "uuid": "50000000-0000-4000-8000-000000000023",
+      "slug": "personal-portfolio",
+      "title": {
+        "es": "Portfolio personal",
+        "en": "Personal Portfolio"
+      },
+      "shortDescription": {
+        "es": "Portfolio personal desarrollado con SvelteKit y TypeScript.",
+        "en": "Personal portfolio built with SvelteKit and TypeScript."
+      },
+      "description": {
+        "es": "Portfolio estático diseñado para centralizar mi experiencia profesional, formación, proyectos y publicaciones. Los contenidos se almacenan en un único fichero JSON y el sitio se genera estáticamente mediante SvelteKit.",
+        "en": "Static portfolio designed to centralize my professional experience, education, projects and posts. Content is stored in a single JSON file and the site is statically generated using SvelteKit."
+      },
+      "featured": true,
+      "projectStatus": "in_progress",
+      "startDate": "2026-08-27",
+      "skills": [
+        "10000000-0000-4000-8000-000000000002",
+        "10000000-0000-4000-8000-000000000004",
+        "10000000-0000-4000-8000-000000000006"
+      ],
+      "tags": [
+        "20000000-0000-4000-8000-000000000001",
+        "20000000-0000-4000-8000-000000000002",
+        "20000000-0000-4000-8000-000000000003"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/portfolio/cover.webp",
+          "alt": "Personal portfolio screenshot",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/example/portfolio",
+          "label": "Source code"
+        },
+        {
+          "type": "demo",
+          "url": "https://example.github.io/portfolio",
+          "label": "Live demo"
+        }
+      ]
+    },
+    {
+      "uuid": "50000000-0000-4000-8000-000000000024",
+      "slug": "personal-portfolio",
+      "title": {
+        "es": "Portfolio personal",
+        "en": "Personal Portfolio"
+      },
+      "shortDescription": {
+        "es": "Portfolio personal desarrollado con SvelteKit y TypeScript.",
+        "en": "Personal portfolio built with SvelteKit and TypeScript."
+      },
+      "description": {
+        "es": "Portfolio estático diseñado para centralizar mi experiencia profesional, formación, proyectos y publicaciones. Los contenidos se almacenan en un único fichero JSON y el sitio se genera estáticamente mediante SvelteKit.",
+        "en": "Static portfolio designed to centralize my professional experience, education, projects and posts. Content is stored in a single JSON file and the site is statically generated using SvelteKit."
+      },
+      "featured": true,
       "projectStatus": "in_progress",
       "startDate": "2026-08-27",
       "skills": [
